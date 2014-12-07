@@ -1,0 +1,156 @@
+html, body, h1, h2, h3,
+p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  background: #000000 url(images/stardust.png) top left repeat;
+}
+
+.header {
+  padding: 10px;
+  background-color: #b56664;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.header a {
+  color: #ffffff;
+}
+
+.main-content {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  margin: 30px auto 0 auto;
+  background: #ffffff url(images/crossword.png) top left repeat;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #7facaa;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+h2 {
+  font-size: 1.17em;
+  color: #7facaa;
+  margin: 15px 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 3px;
+}
+
+ol, ul {
+  padding-left: 50px;
+}
+
+.nav {
+  text-align: center;
+  padding-left: 0;
+}
+
+.nav a {
+  /* color: #0000af; */
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.recipes {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipes a {
+  color: #7facaa;
+  text-decoration: none;
+}
+
+.recipes li {
+  height: 150px;
+  border: 1px solid #b56663;
+  background-color: #ffffff;
+}
+
+.recipes h2 {
+  border-bottom: 0;
+}
+
+.recipes img {
+  float: left;
+  padding-right: 10px;
+}
+
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+.photos li {
+  display: inline;
+  padding-left: 11px;
+}
+.featured-image {
+  width: 500;
+  height: 246px;
+  background: #ffffff url(images/featured-cake.jpg) top left no-repeat;
+}
+.featured-image h3 {
+  margin: 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 0 5px 15px;
+  text-transform: uppercase;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 480px;
+  margin-bottom: 25px;
+}
+input[type=text] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+input[type=submit] {
+  width: 320px;
+  font-size: 26px;
+  margin: 0 auto;
+}
+textarea {
+  width: 480px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+input[type=checkbox], label[for=newsletter]{
+  display: inline;
+  width: auto;
+}
